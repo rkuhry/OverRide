@@ -1,0 +1,14 @@
+{
+  "name": "override-grid",
+  "version": "0.1.0",
+  "description": "OVERRIDE - a multiplayer life-skills math strategy game for high school classrooms",
+  "type": "module",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/index.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.mjs",
+    "simulate": "node --disable-warning=ExperimentalWarning test/simulate.mjs",
+    "bots": "node tools/bots.mjs"
+  }
+}
